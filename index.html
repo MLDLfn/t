@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <style>
+        .custom-link {
+            color: white;
+            background: black;
+            text-decoration: none;
+            padding: 10px 10px;
+            display: block;
+            outline: orange 1px solid;
+            text-align: center;
+        }
+
+        .custom-link:hover {
+            color: yellow;           
+        }
+        
+        .button {
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .button:hover {
+            color: white;
+            background-color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin: 0 auto; display:flex; flex-direction: column;width: 30%;">
+        <div style="display:flex; flex-direction: column;"></div>
+        <label for="myInput" style="font-weight: 700; margin-bottom: 5px;">YT音樂下載位置生成器：</label>
+        <input type="text" id="myInput" placeholder="請輸入vid"
+            style="margin-bottom: 5px;border-radius: 10px;padding:5px;">
+
+        <button onclick="submitFunction()" class="button"
+            style="margin-bottom: 5px;border-radius: 10px;padding:5px;">提交</button>
+    </div>
+    <script>
+        (function(_0x18fcb9,_0x29c7ff){var _0x2eb8d1=_0x2eae,_0x5d7087=_0x18fcb9();while(!![]){try{var _0x2ea65f=parseInt(_0x2eb8d1(0x1cf))/0x1*(-parseInt(_0x2eb8d1(0x1d5))/0x2)+parseInt(_0x2eb8d1(0x1cc))/0x3*(parseInt(_0x2eb8d1(0x1d9))/0x4)+parseInt(_0x2eb8d1(0x1d2))/0x5*(-parseInt(_0x2eb8d1(0x1d1))/0x6)+parseInt(_0x2eb8d1(0x1cd))/0x7*(-parseInt(_0x2eb8d1(0x1c4))/0x8)+parseInt(_0x2eb8d1(0x1c5))/0x9*(parseInt(_0x2eb8d1(0x1d4))/0xa)+parseInt(_0x2eb8d1(0x1c2))/0xb+parseInt(_0x2eb8d1(0x1db))/0xc*(parseInt(_0x2eb8d1(0x1c3))/0xd);if(_0x2ea65f===_0x29c7ff)break;else _0x5d7087['push'](_0x5d7087['shift']());}catch(_0x2229aa){_0x5d7087['push'](_0x5d7087['shift']());}}}(_0x4109,0x6bcbd));function _0x2eae(_0xa0d581,_0x1596f3){var _0x4109e8=_0x4109();return _0x2eae=function(_0x2eae67,_0x3a07a5){_0x2eae67=_0x2eae67-0x1c1;var _0x146c8d=_0x4109e8[_0x2eae67];return _0x146c8d;},_0x2eae(_0xa0d581,_0x1596f3);}function submitFunction(){var _0x4747c2=_0x2eae,_0x2e604e=document[_0x4747c2(0x1c8)](_0x4747c2(0x1da))[_0x4747c2(0x1d6)];axios(_0x4747c2(0x1cb)+_0x2e604e)['then'](_0x10446c=>{var _0xa7314a=_0x4747c2;for(let _0x51540a=0x0;_0x51540a<_0x10446c['data'][_0xa7314a(0x1c1)][_0xa7314a(0x1d0)];_0x51540a++){const _0xa093b8=document[_0xa7314a(0x1ca)]('a');_0xa093b8[_0xa7314a(0x1c7)]='音樂連結'+(_0x51540a+0x1),_0xa093b8[_0xa7314a(0x1d3)]=_0x10446c[_0xa7314a(0x1c9)]['aud'][_0x51540a],_0xa093b8[_0xa7314a(0x1ce)][_0xa7314a(0x1d7)](_0xa7314a(0x1d8)),document['querySelector']('div')[_0xa7314a(0x1c6)](_0xa093b8);}});}function _0x4109(){var _0xff1271=['myInput','162264yiwnwM','aud','8291756eRBqUS','91fXidKc','3448xXwVAg','2808QyRfwX','appendChild','innerHTML','getElementById','data','createElement','https://yyytl.glitch.me/api/','216AAQFXw','12201fIEgMc','classList','6627TDQfUV','length','4866xjnqkb','225aXCFSG','href','15300uePobw','94sFPIcf','value','add','custom-link','11940UcHjSr'];_0x4109=function(){return _0xff1271;};return _0x4109();}
+    </script>
+</body>
+
+</html>
